@@ -1,0 +1,29 @@
+.error {
+    color: var(--red);
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.formChangeButton {
+    background: none;
+    color: var(--black);
+    margin-left: 5px;
+    padding: 0;
+}
+
+.formChangeButton:hover {
+    background: none;
+    color: var(--secondary);
+    margin-left: 5px;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.formChangeText {
+    color: var(--black);
+    font-size: 12px;
+}
+
+.formSubmitButton {
+    width: 100%;
+}

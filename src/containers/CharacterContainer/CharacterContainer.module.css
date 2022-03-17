@@ -1,0 +1,45 @@
+.characterInfoWrapper {
+    min-height: 100vh;
+    padding: 40px 0;
+}
+
+.characterSection {
+    display: flex;
+}
+
+.characterImage {
+    max-width: 400px;
+}
+
+.characterTitleWrapper {
+    align-items: center;
+    display: flex;
+}
+
+.characterDataWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    text-align: baseline;
+}
+
+.characterCreatedDate {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 5px;
+    opacity: 0.8;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .characterSection {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .characterDataWrapper {
+        padding: 20px 0 0;
+    }
+}

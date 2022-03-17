@@ -1,0 +1,13 @@
+.isActive {
+    border-bottom: 2px solid var(--secondary);
+    color: var(--black);
+}
+
+.navLink {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.navLink:hover {
+    border-bottom: 2px solid var(--secondary);
+}

@@ -1,0 +1,10 @@
+.heading1 {
+    font-size: 2rem;
+}
+
+.heading2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0;
+}

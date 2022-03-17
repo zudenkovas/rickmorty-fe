@@ -1,0 +1,10 @@
+.pageFooter {
+    align-items: center;
+    background-color: var(--secondary);
+    color: var(--white);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: 0 -50px;
+    padding: 0 50px;
+}

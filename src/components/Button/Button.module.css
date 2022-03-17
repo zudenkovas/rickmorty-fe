@@ -1,0 +1,31 @@
+.button {
+	background: var(--secondary);
+	border: none;
+	border-radius: 3px;
+	color: var(--white);
+	cursor: pointer;
+	font: inherit;
+	outline: inherit;
+	padding: 10px 15px;
+	word-break: break-all;
+}
+
+.button:hover {
+	filter: brightness(90%);
+}
+
+.button:focus {
+	outline: 2px solid -webkit-focus-ring-color;
+}
+
+.secondaryButton {
+	background: transparent;
+	color: var(--black);
+	padding: 0;
+}
+
+.secondaryButton:hover {
+	border-radius: 0;
+	text-decoration: 2px underline var(--secondary);
+	text-underline-offset: 2px;
+}

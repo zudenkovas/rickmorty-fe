@@ -1,0 +1,59 @@
+.characterCardWrapper {
+    border: 1px solid var(--grey);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+    min-width: 150px;
+}
+
+.characterLink {
+    align-items: center;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.characterLink:hover {
+    color: var(--darkGrey);
+}
+
+.characterInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: space-between;
+    padding: 5px 10px;
+    word-break: break-all;
+}
+
+.characterImage {
+    width: 100%;
+}
+
+.characterStatusWrapper {
+    align-items: center;
+    display: flex;
+    margin: 5px 0;
+}
+
+.characterStatus {
+    border-radius: 50%;
+    height: 0.5rem;
+    margin-right: 10px;
+    width: 0.5rem;
+
+}
+
+.aliveStatus {
+    background: var(--green);
+}
+
+.deadStatus {
+    background: var(--red);
+}
+
+.unknownStatus {
+    background: var(--ripeLemon);
+}
